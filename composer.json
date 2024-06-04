@@ -1,0 +1,18 @@
+{
+    "require": {
+        "firebase/php-jwt": "^6.10",
+        "zircote/swagger-php": "^3.2.0",
+        "doctrine/annotations": "^1.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lib\\": "lib/",
+            "App\\": "app/",
+            "App\\Controllers\\": "app/Controllers/",
+            "App\\Models\\": "app/Models/",
+            "App\\Services\\": "app/Services/",
+            "App\\Middlewares\\": "app/Middlewares/",
+            "App\\Models\\Ftp\\": "app/Models/Ftp/"
+        }
+    }
+}
